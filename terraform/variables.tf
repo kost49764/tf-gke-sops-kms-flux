@@ -1,17 +1,18 @@
 variable "GOOGLE_PROJECT" {
   type        = string
+  default     = "advance-verve-276116"
   description = "GCP project name"
 }
 
 variable "GOOGLE_REGION" {
   type        = string
-  default     = "us-central1"
+  default     = "us-central1-c"
   description = "GCP region to use"
 }
 
 variable "GKE_MACHINE_TYPE" {
   type        = string
-  default     = "g1-small"
+  default     = "n1-standart"
   description = "Machine type"
 }
 

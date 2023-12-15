@@ -1,6 +1,6 @@
-project = "GOOGLE_PROJECT"
+GOOGLE_PROJECT = "advance-verve-276116"
 
-region = "us-central1"
+GOOGLE_REGION = "us-central1-c"
 
-node_count = 2
+GKE_NUM_NODES = 3
 
