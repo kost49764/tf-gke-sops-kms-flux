@@ -1,6 +1,6 @@
-GOOGLE_PROJECT = "GOOGLE_PROJECT"
+project = "GOOGLE_PROJECT"
 
-GOOGLE_REGION = "us-central1"
+region = "us-central1"
 
-GKE_NUM_NODES = 2
+node_count = 2
 

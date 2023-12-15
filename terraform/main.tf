@@ -1,7 +1,7 @@
 module "gke_cluster" {
   source         = "github.com/ukrsite/tf-google-gke-cluster"
-  GOOGLE_REGION  = var.GOOGLE_REGION
-  GOOGLE_PROJECT = var.GOOGLE_PROJECT
-  GKE_NUM_NODES  = var.GKE_NUM_NODES
+  region  = var.GOOGLE_REGION
+  project = var.GOOGLE_PROJECT
+  node_count  = var.GKE_NUM_NODES
 }
 
